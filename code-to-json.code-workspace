@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/package-lock.json": true,
+      "**/.nyc_output": true,
+      "**/coverage": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/lib": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/packages/*/lib/**": true
+    },
+    "eslint.enable": true,
+    "eslint.validate": ["javascript", "typescript"],
+    "eslint.packageManager": "yarn"
+  },
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "launch": {
+    "configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "Attach",
+        "port": 9229,
+        "restart": true,
+        "stopOnEntry": false,
+        "smartStep": false,
+        "timeout": 30000
+      }
+    ],
+    "compounds": []
+  },
+  "extensions": {
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "ryanluker.vscode-coverage-gutters",
+      "dbaeumer.vscode-eslint",
+      "timonwong.shellcheck",
+      "esbenp.prettier-vscode",
+      "plievone.vscode-template-literal-editor"
+    ]
+  }
+}

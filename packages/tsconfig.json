@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "utils" },
+    { "path": "test-helpers" },
+    { "path": "utils-ts" },
+    { "path": "utils-node" },
+    { "path": "comments" },
+    { "path": "core" },
+    { "path": "core-linker" },
+    { "path": "formatter" },
+    { "path": "formatter-linker" },
+    { "path": "schema" },
+    { "path": "cli" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.settings.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": ".",
+    "baseUrl": "src",
+    "lib": ["scripthost", "esnext"]
+  },
+  "include": ["src"],
+  "exclude": ["lib"]
+}
